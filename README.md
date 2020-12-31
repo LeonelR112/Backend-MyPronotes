@@ -21,9 +21,10 @@ Es una simple aplicación web en la que cada usuario podrá crear, modificar y g
 > - PHPDotEnv (variables de entorno) de [vlucas](https://github.com/vlucas/phpdotenv)
 
 #### Funciones en el Back:
-> - Recepción de peticiones a traves de uris personalziadas en apache.
-> - Verificación de cada llamado http con un Token, enviado desde el servidor donde se encuentra alojado el front. Con esto se hace una doble verificación de la existencia del usuario para poder realizar el pedido.
-> - Validaciones en el token y el JSON que se recive en cada petición.
+> -	Recepción de peticiones a través de uris personalizadas en apache.
+> -	Verificación de cada llamado http con un Token, enviado desde el servidor donde se encuentra alojado el front. Con esto se hace una doble verificación de la existencia del usuario para poder realizar el pedido.
+> -	Validaciones en el token y el JSON que se recibe en cada petición.
+
 
 La aplicación fue creada en conjunto con **Lucas Rodriguez** [(ver su repositorio aquí)]() el cual, utilizando **NUXT.js** y **Vue.js** diseñó la estructura de la página, el sistema de login y la maquetación principal del front-end. _Más información en su repositorio_
 
