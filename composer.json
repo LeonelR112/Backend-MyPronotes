@@ -1,0 +1,12 @@
+{
+    "name": "leonel/notesapp",
+    "authors": [
+        {
+            "name": "Leonel",
+            "email": "Leonel.Ruiz112@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    }
+}

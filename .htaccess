@@ -1,0 +1,16 @@
+Options -MultiViews
+Options -Indexes
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_METHOD} =POST
+RewriteRule ^api/notes$             api/handlerRequest.php
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRule ^api/notes/([0-9]+)$    api/showNote.php?id=$1
+RewriteRule ^api/notes$             api/getNotes.php
+RewriteRule ^api/$                  api/bad_request.php
+RewriteRule ^index$                 index.php
+RewriteRule ^documentation$         documentation.php
+
+
