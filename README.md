@@ -26,5 +26,5 @@ Es una simple aplicación web en la que cada usuario podrá crear, modificar y g
 > -	Validaciones en el token y el JSON que se recibe en cada petición.
 
 
-La aplicación fue creada en conjunto con **Lucas Rodriguez** [(ver su repositorio aquí)]() el cual, utilizando **NUXT.js** y **Vue.js** diseñó la estructura de la página, el sistema de login y la maquetación principal del front-end. _Más información en su repositorio_
+La aplicación fue creada en conjunto con **Lucas Rodriguez** [(ver su repositorio)](https://github.com/lucasrdz994/my-pro-notes) el cual, utilizando **NUXT.js** y **Vue.js** diseñó la estructura de la página, el sistema de login y la maquetación principal del front-end. _Más información en su repositorio_
 
